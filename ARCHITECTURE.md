@@ -7,11 +7,11 @@
      |
 [API Gateway / Load Balancer]
      |
-[Java Spring Boot Backend (REST API)]
+[Java Spring Boot Backend Microservices (REST API)]
      |
 ----------------------------
 |          |              |
-[Postgres] [Redis]   [AI/Agentic Microservice (Python)]
+[MySQL] [MongoDB]   [AI/Agentic Microservice (Python)]
                             |
                 [GenAI APIs, RAG, Agentic Orchestration]
                             |
@@ -28,14 +28,14 @@
 - **AI/Agentic Microservice (Python):**
   - GenAI-powered chatbot (customer support, dish suggestions)
   - Agentic workflows (auto-ticketing, refunds, notifications)
-- **Database (Postgres):** 
+- **Database (MySQL/MongoDB):** 
   - Users, restaurants, orders, menus, ratings, transactions
 - **Cache (Redis):** 
   - Sessions, real-time order status
-- **Cloud Storage (S3/MinIO):** 
+- **Cloud Storage (S3/MinIO/GCS):** 
   - Restaurant images, documents
 - **DevOps/Infra:** 
-  - Docker, Kubernetes (Helm), Terraform (AWS/GCP), CI/CD (GitHub Actions, ArgoCD)
+  - Docker, Kubernetes (Helm), Terraform (AWS/GCP), CI/CD (GitHub Actions, ArgoCD, Jenkins)
 - **Monitoring & Security:** 
   - Prometheus, Grafana, ELK Stack, secrets mgmt (Vault), SAST/DAST
 

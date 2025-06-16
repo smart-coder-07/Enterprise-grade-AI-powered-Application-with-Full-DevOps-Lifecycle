@@ -8,7 +8,7 @@
 - Filter by cuisine, location, Jain/Satvik availability
 - View menus, dish details (ingredients, allergy/jain info)
 - Add to cart, place order, and track order (real-time)
-- Online payment (UPI, card, wallet)
+- Online payment (UPI, card, wallet, COD)
 - Order history, repeat orders
 - Rate/review restaurants
 - GenAI-powered chatbot (support, recommendations)
